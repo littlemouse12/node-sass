@@ -7,8 +7,14 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
+
 - task: Npm@1
   inputs:
     command: 'install'
   displayName: 'Run a one-line script'
+  
+- task: Npm@1
+  inputs:
+    command: 'custom'
+    customCommand: 'run-script build'
 
