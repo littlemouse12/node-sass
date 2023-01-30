@@ -5,7 +5,7 @@
 
 pool:
   vmImage: ubuntu-latest
-  demands: Agent.OSArchitecture=ARM64
+  demands: Agent.OSArchitecture -eq ARM64
 
 steps:
 
