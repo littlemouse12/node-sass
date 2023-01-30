@@ -4,7 +4,7 @@
 # https://aka.ms/yaml
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: macos-latest
   demands: Agent.OSArchitecture -equals ARM64
 
 steps:
