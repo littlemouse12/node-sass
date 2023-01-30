@@ -5,7 +5,7 @@
 
 pool:
   vmImage: macos-latest
-  demands: Agent.OSArchitecture -equals ARM64
+  #demands: Agent.OSArchitecture -equals ARM64
 
 steps:
 
